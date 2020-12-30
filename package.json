@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "capitalizeFirstLetters.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   },
   "homepage": "https://github.com/THETIGERSEYES/js-tdd-intro#readme",
   "keywords": [],
+  "dependencies": {
+    "mocha": "^8.2.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
   "description": ""
 }
